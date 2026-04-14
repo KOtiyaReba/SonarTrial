@@ -1,4 +1,4 @@
-from app import calculate_area
+from main import calculate_area
 
 def test_area():
     assert calculate_area(5) == 78.53981633974483
